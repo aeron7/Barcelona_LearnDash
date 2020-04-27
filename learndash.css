@@ -5,14 +5,16 @@ Aeron7 Inc
 
 /* learndash 3.0 Compatibility*/
 
-/* Next Page Previous Page Buttons */
+/* LearnDash Custom CSS Start*/
+
+/* The bottom Previous and Next button. */
 .learndash-wrapper .ld-button{
 color: white !important;
 }
 
 /* Putting the Topic on same line */
 .learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-title .ld-item-components{
-      display: inline;
+display: inline;
 }
 
 /* Changing the Topic Text */
@@ -42,5 +44,64 @@ text-transform: uppercase;
 
 /* Lesson Padding When clicked on Topic */
 .learndash-wrapper .ld-item-list.ld-lesson-list .ld-topic-list .ld-table-list-header {
-    padding: 10px 60px 5px 60px;
+padding: 10px 60px 5px 60px;
 }
+
+
+/* Focus Mode Start */
+
+/* Lesson Text */
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-lesson-title{
+font-size:14px
+}
+
+/* Topic Text */
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-topic-list.ld-table-list .ld-table-list-item {
+font-size: 12px;
+}
+
+/* Topic Padding */
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation .ld-topic-list.ld-table-list{
+padding: 5px;
+}
+
+/* PrevNex Buttons */
+.learndash-wrapper .ld-button.ld-button-transparent{
+font-size: 12px;
+}
+
+/* PrevNex Buttons */
+.learndash-wrapper .ld-button.ld-button-transparent{
+font-size: 12px;
+}
+
+/* Upper Right Text */
+.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-text {
+background: #e74c3c;
+font-size: 12px;
+color: #fff;
+border-radius: 20px;
+padding: 5px;
+}
+
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-expand-button{
+display: inline;
+}
+.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-text{
+padding: 2px 8px;
+padding-left: .5em;
+background-color: rgba(231,76,60,0.2);
+border-radius: 12px;
+}
+
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-expand-button .ld-icon{
+margin: 0px 5px;
+}
+
+.learndash-wrapper .ld-course-navigation .ld-lesson-item-preview .ld-lesson-title{
+margin-bottom: 5px;
+}
+
+/* Focus Mode End */
+
+/* LearnDash Custom CSS End*/
