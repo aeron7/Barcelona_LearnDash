@@ -7,5 +7,40 @@ Aeron7 Inc
 
 /* Next Page Previous Page Buttons */
 .learndash-wrapper .ld-button{
-color: white;
+color: white !important;
+}
+
+/* Putting the Topic on same line */
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-title .ld-item-components{
+      display: inline;
+}
+
+/* Changing the Topic Text */
+.ld-item-component{
+background-color: rgba(231,76,60,0.2) ;
+color: #e74c3c ;
+border-radius: 12px ;
+text-align: center ;
+padding: 5px 12px ;
+text-transform: uppercase ;
+font-weight: 700 ;
+letter-spacing: .5px ;
+line-height: 1.1 ;
+display: inline-block ;
+font-size: .825em ;}
+
+/* Changing the Unlocked button */
+.learndash-wrapper .ld-status.ld-status-unlocked{
+background-color: rgba(56, 150, 233, 0.2) !important;
+color: #389ce9 !important;
+}
+
+/* Changing the Expand Text */
+.learndash-wrapper .ld-expand-button {
+text-transform: uppercase;
+}
+
+/* Lesson Padding When clicked on Topic */
+.learndash-wrapper .ld-item-list.ld-lesson-list .ld-topic-list .ld-table-list-header {
+    padding: 10px 60px 5px 60px;
 }
